@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|top"
+        >
+        <Button
+            android:id="@+id/theButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next fact"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="date"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/factText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="text"
+            android:textSize="20sp"/>
+
+
+
+
+        <Button
+            android:id="@+id/addToListBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="add fact to list"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
